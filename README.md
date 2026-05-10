@@ -30,13 +30,21 @@ git clone https://github.com/<username>/forecast-alert.git
 cd forecast-alert
 ```
 
-2. Install required dependencies:
+2. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+venv\Scripts\activate # On Windows
+source venv/bin/activate # On macOS/Linux
+```
+
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file in the project root with the following variables:
+4. Create a `.env` file in the project root with the following variables:
 
 ```env
 API_KEY=your_weather_api_key_here
@@ -126,4 +134,4 @@ Feel free to submit issues and enhancement requests!
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is for educational purposes.
